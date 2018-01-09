@@ -11,17 +11,18 @@ export default function(theme={}) {
       justifyContent: 'space-between',
       paddingLeft: 10,
       paddingRight: 10,
-      alignItems: 'center'
+      alignItems: 'center',
+      paddingBottom: 15
     },
     monthText: {
       fontSize: appStyle.textMonthFontSize,
       fontFamily: appStyle.textMonthFontFamily,
-      fontWeight: '300',
+      fontWeight: 'bold',
       color: appStyle.monthTextColor,
       margin: 10
     },
     arrow: {
-      padding: 10
+      //padding: 10
     },
     arrowImage: {
       ...Platform.select({
@@ -40,7 +41,7 @@ export default function(theme={}) {
     },
     dayHeader: {
       marginTop: 2,
-      marginBottom: 7,
+      marginBottom: 18,
       width: 32,
       textAlign: 'center',
       fontSize: appStyle.textDayHeaderFontSize,
